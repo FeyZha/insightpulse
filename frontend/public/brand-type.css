@@ -1,0 +1,27 @@
+/* Approved combination: listening sprite + upright signal wordmark. */
+.brand {
+  display:flex; align-items:flex-end; gap:18px; flex:none; padding:0; border:0;
+  text-align:left; background:transparent; border-radius:8px;
+}
+.brand-symbol { display:block; flex:none; fill:currentColor; stroke:none; }
+.brand-mark { width:72px; height:72px; color:var(--brand-signal,#80ded0); }
+.brand-wordmark {
+  --wordmark-accent:var(--brand-signal,#80ded0);
+  display:block; width:172px; height:auto; flex:none; color:var(--brand-paper,#edf4ef);
+  margin-bottom:3px;
+}
+@media (max-width:980px) {
+  .brand { gap:16px; }
+  .brand-mark { width:60px; height:60px; }
+  .brand-wordmark { width:156px; }
+}
+@media (max-width:760px) {
+  .brand { gap:12px; }
+  .brand-mark { width:50px; height:50px; }
+  .brand-wordmark { width:142px; }
+}
+@media (max-width:360px) {
+  .brand { gap:10px; }
+  .brand-mark { width:42px; height:42px; }
+  .brand-wordmark { width:124px; margin-bottom:1px; }
+}
