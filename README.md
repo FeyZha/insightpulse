@@ -1,5 +1,7 @@
 # InsightPulse
 
+[在线体验](https://feyzha-insightpulse.vercel.app) · [GitHub](https://github.com/FeyZha/insightpulse)
+
 将 Steam 用户评论整理成可追溯的问题、变化对照与行动建议。
 
 ## 功能
